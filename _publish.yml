@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 8760d3ee-a5d7-4422-b9ae-24be739fd585
+      url: https://thriving-monstera-8affee.netlify.app
