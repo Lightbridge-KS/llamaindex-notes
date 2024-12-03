@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "llamaIndex Notes"
+  author: "Kittipos Sirivongrungson"
+  date: today
+  repo-url: https://github.com/Lightbridge-KS/llamaindex-notes
+  site-url: https://llamaindex-notes-lightbridge.netlify.app
+  chapters:
+    - index.qmd
+    - part: Basic
+      chapters: 
+        - "basic/li-quickstart-openai.ipynb"
+        - "basic/li-persist-openai.ipynb"
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: zephyrs
+
+freeze: auto
+
+
