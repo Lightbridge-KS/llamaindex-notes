@@ -13,6 +13,9 @@ book:
       chapters: 
         - "basic/li-quickstart-openai.ipynb"
         - "basic/li-persist-openai.ipynb"
+    - part: Parse PDF
+      chapters: 
+        - "parse-pdf/parse-pdf-basic.ipynb"
     - references.qmd
 
 bibliography: references.bib
